@@ -1,0 +1,6 @@
+pysimpfun.egg-info/
+__pycache__/
+dist/
+.venv/
+.pytest_cache/
+config.toml
