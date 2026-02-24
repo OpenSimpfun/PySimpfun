@@ -15,7 +15,7 @@ pip install pysimpfun
 ```python
 import pysimpfun
 
-info = pysimpfun.info.announcement.get_announcement_list()
+info = pysimpfun.info.get_announcement_list()
 print(info)
 ```
 
