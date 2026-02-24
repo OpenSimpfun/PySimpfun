@@ -1,6 +1,6 @@
 [project]
 name = "pysimpfun"
-version = "0.2.0"
+version = "0.2.1"
 description = "Simpfun sdk by Python."
 readme = "README.md"
 requires-python = ">=3.12"
@@ -9,9 +9,6 @@ dependencies = [
     "toml>=0.10.2",
 ]
 
-[build-system]
-requires = ["setuptools>=61.0"]
-build-backend = "setuptools.build_meta"
-
 [tool.setuptools.packages.find]
-include = ["pysimpfun*"]
+where = ["."]
+include = ["pysimpfun", "pysimpfun.*"]
